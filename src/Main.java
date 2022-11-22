@@ -14,8 +14,7 @@ public class Main {
         data.addUser(user1);
         data.addUser(user2);
         data.addUser(user3);
-        System.out.println(data.showAllUsers());
-        data.findWithID(2);
+        data.findWithID(1);
         data.deleteWithID(2);
         System.out.println(data.showAllUsers());
         data.findWithID(2);
